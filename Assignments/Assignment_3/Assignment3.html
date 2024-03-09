@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+  </head>
+  <!-- Name: Osiris Castillo de la Rosa
+       Student ID: 301378283 -->
+  <body>
+    <header></header>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">HOME</a></li>
+          <li><a href="#content">TOP PAGE</a></li>
+          <li><a href="#table">EUCs</a></li>
+          <li><a href="#map">STORES</a></li>
+        </ul>
+      </nav>
+      <div id="content">
+        <div id="product">
+          <div id="img">
+            <img
+              onclick="togglePopUp()"
+              class="main-img"
+              src="./IMGS/Veteran_Sherman_S_EUC.jpg"
+              alt="Sherman S"
+            />
+            <p>Click in the image to enlarge</p>
+            <!-- <div class="popup-img"> -->
+            <div class="popup-img" id="popup-img">
+              <span onclick="togglePopUp()">&times;</span>
+              <img
+                class="pimg"
+                src="./IMGS/shermanqua-1667572522961.jpg"
+                alt="Sherman S"
+              />
+            </div>
+          </div>
+          <div id="description">
+            <h2>LeaperKim Veteran Sherman S</h2>
+            <p>
+              Built like a tank and with a new generation suspension design, it
+              can go anywhere!
+            </p>
+            <p>
+              The Veteran Sherman S (suspension) electric unicycle is 20 inches
+              in size with a 3000W motor, 3600Wh battery. With an upgraded look,
+              more robust body, integrated seat, fender and trolley handle
+              ontop.
+            </p>
+            <h3>Speed & Range</h3>
+            <p>
+              It is lightning quick in a straight line and can instantly reach a
+              peak speed of ~75 km/h. From daily urban commutes to traveling
+              between cities to taking on wild off-road, everything is now
+              possible with the Sherman-S’s 100.8V Samsung 50E 2700 battery,
+              which has a colossal capacity of 3,600 Wh. The battery pack
+              travels up to ~230 km before running out of juice and supports
+              fast charging, enabling you to charge it fully in merely 3 hours.
+            </p>
+            <ul id="desLine">
+              <li>TOP SPEED*:~75 km/h</li>
+              <li>MAX RANGE*:~230 km</li>
+              <li>WEIGHT:44 kg</li>
+              <li>MOTOR:3000W</li>
+              <li>BATTERY:3600WH/100V</li>
+              <li>MAX LOAD:120 kg</li>
+              <li>MAX GRADE:30 Deg</li>
+              <li>TIRE SIZE:20 in Knobby Tire</li>
+            </ul>
+          </div>
+        </div>
+        <div class="table" id="table">
+          <table>
+            <caption></caption>
+            <thead>
+              <tr>
+                <th id="description">Description</th>
+                <th id="price">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td headers="description">Veteran Sherman S</td>
+                <td headers="price">$5300</td>
+              </tr>
+              <tr>
+                <td headers="description">King Song S16 Pro</td>
+                <td headers="price">$2800</td>
+              </tr>
+              <tr>
+                <td headers="description">InMotion V14 Adventure</td>
+                <td headers="price">$4600</td>
+              </tr>
+              <tr>
+                <td headers="description">Veteran Sherman Max</td>
+                <td headers="price">$3800</td>
+              </tr>
+              <tr>
+                <td headers="description">Veteran Lynx</td>
+                <td headers="price">$5600</td>
+              </tr>
+              <tr>
+                <td headers="description">Veteran Abrams</td>
+                <td headers="price">$2700</td>
+              </tr>
+              <tr>
+                <td headers="description">King Song 16X</td>
+                <td headers="price">$2100</td>
+              </tr>
+              <tr>
+                <td headers="description">InMotion V11Y</td>
+                <td headers="price">$2900</td>
+              </tr>
+            </tbody>
+            <tfoot></tfoot>
+          </table>
+        </div>
+        <div id="banner">
+          <div class="banner-container">
+            <div class="text">
+              <div class="banner-title">Deal OFF the Wick!!</div>
+              <div class="banner-description">
+                <p>
+                  If you buy your UEC this month we will give you a Mini Veteran
+                  Sherman S figure finger toy and a pipza Kowabunga!!!!
+                </p>
+              </div>
+            </div>
+            <div class="img-promo">
+              <img id="fingers" src="./IMGS/fingers.png" alt="" />
+              <div id="pipza"></div>
+            </div>
+          </div>
+        </div>
+        <div id="map">
+          <h1>Explore our locations</h1>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.960687064368!2d-79.53050708008001!3d43.6489862585397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b41897f9c5f53%3A0xed2879a5020564ab!2sSmartwheel%20Toronto!5e0!3m2!1sen!2sca!4v1708833946885!5m2!1sen!2sca"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="locations">
+              <ul>
+                <li>
+                  <a href="https://www.smartwheel.ca/etobicoke-toronto/"
+                    >Etobicoke / Toronto Store</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.smartwheel.ca/burlington/"
+                    >Burlington Store</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.smartwheel.ca/vancouver-pickup-and-service/"
+                    >Vancouver Pickup and Service</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>All rights reserved</p>
+    </footer>
+  </body>
+</html>
